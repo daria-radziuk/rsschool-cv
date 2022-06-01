@@ -1,5 +1,7 @@
 # ***Daria Radziuk***
 
+[![z_1d4a3be6.th.jpg](https://ia.wampi.ru/2022/06/01/z_1d4a3be6.th.jpg)](https://wampi.ru/image/RZkFoHQ)
+
 ## My Contact Info:
 
 Phone: +375 29 361-90-85
