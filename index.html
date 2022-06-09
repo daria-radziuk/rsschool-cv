@@ -8,148 +8,147 @@
     <link rel="icon" href="assets/favicon.ico">
 </head>
 <body>
-    <header class = "header">
+  <div>
+    <header class = "container">
         <class="favicon">
             <a href="index.html">
-              <span class="use">USE</span>-<span class="web">WEB</span>.ru 
-            </a>   
-           <p>Darya Radziuk - Front-end Developer</p>    
-           <nav class="nav-list">
+              <span class="use">USE</span>-<span class="web">WEB</span>.ru
+            </a>  
+           <nav id="nav-list">
              <ul>
-                 <li><a class="menu" href="#contacts">Contacts</a></li>
-                 <li><a href="#about-me">About me</a></li>
-                 <li><a href="#skiils">Skills</a></li>
-                 <li><a href="#job">Job</a></li>
-                 <li><a href="#education">Education</a></li>
-                 <li><a href="#language">Language</a></li>
-                 <li><a href="#code">Code</a></li>
+                 <li><a class="menu" href="#contacts" class="nav-link">Contacts</a></li>
+                 <li><a href="#about-me" class="nav-link">About me</a></li>
+                 <li><a href="#skills" class="nav-link">Skills</a></li>
+                 <li><a href="#job" class="nav-link">Job</a></li>
+                 <li><a href="#education" class="nav-link">Education</a></li>
+                 <li><a href="#language" class="nav-link">Language</a></li>
+                 <li><a href="#code" class="nav-link">Code</a></li>
              </ul>  
-           </nav> 
+           </nav>
     </header>
-    <main class="container">
-      <div class="left-side">
-        <figure class="figure--left-side">
-          <img
-            src="assets\image.jpg"
-            class="photo"
-            alt="Photo of Darya Radziuk"
-            />
-        </figure>
-          <section class="contact" id="contact">
-            <h2 class="section-title">Contact</h2>
-            <ul class="contact__list">
-              <li class="contact__item">
-               phone: <br>
-                +375293619085
-              </li>
-              <li class="contact__item">
-                Email:<a href="mailto:darya.radziuk93@gmail.com">darya.radziuk93@gmail.com</a>
-              </li>
-              <li class="contact__item">
-                GitHub:<br />
-                <span>daria-radziuk</span>
-              </li>
-              <li class="contact__item">
-                Telegram:<br />
-                <span>@daria-radziuk</span>
-              </li>
-              <li class="contact__item">
-                Address:<br />
-                <span>Minsk, Belarus</span>
-              </li>
+  </div>
+  <div>
+    <section class="page-title">
+    <h1 class="main-title">Darya Radziuk</h1>
+    <p>Front-End developer</p>
+  </section>
+  </div>
+  <div>
+    <main class="main-container">
+      <figure class="figure--left-side">
+        <img
+          src="assets\image.jpg"
+          class="photo"
+          alt="Photo of Darya Radziuk"
+          width="400"
+          hight="300"
+        />
+      </figure>
+      <section class="contacts" id="contacts">
+        <h2 class="section-title">Contacts</h2>
+          <ul class="contacts__list">
+            <li class="contact__item">
+              phone: <br>
+              +375293619085
+            </li>
+            <li class="contact__item">
+              GitHub:<br />
+              <a href="https://github.com/daria-radziuk">daria-radziuk</a>
+            </li>
+            <li class="contact__item">
+              Telegram:<br />
+              <a href="https://telegram.me/daria-radziuk">daria-radziuk</a>
+            </li>
+            <li class="contact__item">
+              Email:<br />
+              <a href="mailto:darya.radziuk93@gmail.com">darya.radziuk93@gmail.com</a>
+            </li>
             </ul>
-          </section>
-          <section class="skills" id="skills">
-            <h2 class="section-title">Skills</h2>
-            <ul class="skills__list">
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>Git/Github</li>
-              <li>Figma</li>
-              <li>VSCode</li>
+      </section>
+      <section class="about-me" id="about-me">
+        <h2 class="section-title">About me</h2>
+          <p>
+            My name is Dasha and I am 29 years old. Now I am living in Minsk with husband and 2 children. I have to go to previous job of insurance agent in half a year. And I don’t want it. I’m extremely motivated for career change goal. IT is my dream. I hope that I can make my dream come true.
+          </p>
+      </section>
+    </div>
+      <section class="skills" id="skills">
+        <h2 class="section-title">Skills</h2>
+          <ul class="skills__list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Git/Github</li>
+            <li>Figma</li>
+            <li>VSCode</li>
+          </ul>
+      </section>
+      <section class="job" id="job">
+        <h2 class="section-title">Job</h2>
+          <ul class="job__list">
+            <li class="job__item">
+              2020-now <br />Targetolog Fb/Ig, freelance
+            </li>
+            <li class="job__item">
+              2016-2020 <br />Internet-marketolog, freelance
+            </li>
+            <li class="job__item">
+              2014-2016 <br />Insurance agent, Eximgarant of Belarus
+            </li>
             </ul>
-          </section>
-          <section class="language" id="language">
-            <h2 class="section-title">Language</h2>
-            <ul class="language__list">
-              <li>Belorussian/Russian - Native</li>
-              <li>English - B1 (Intermediate)</li>
-            </ul>
-          </section>
-        </div>
-        <div class="right-side">
-        <section class="page-title">
-          <h1 class="main-title">Darya <br />Radziuk</h1>
-          <p>Front-End developer</p>
-        </section>
-        <figure class="figure--right-side">
-          <img
-            src="assets\image.jpg"
-            class="photo"
-            alt="Photo of Darya Radziuk"
-          />
-        </figure>
-        <section class="about-me" id="about-me">
-            <h2 class="section-title">About me</h2>
-            <p>
-              My name is Dasha and I am 29 years old. Now I am living in Minsk with husband and 2 children. I have to go to previous job of insurance agent in half a year. And I don’t want it. I’m extremely motivated for career change goal. IT is my dream. I hope that I can make my dream come true.
-            </p>
-          </section>
-          <section class="job" id="job">
-            <h2 class="section-title">Education</h2>
-            <ul class="job__list">
-              <li class="job__item">
-                2020-now <br />Targetolog Fb/Ig, freelance 
-              </li>
-              <li class="job__item">
-                2016-2020 <br />Internet-marketolog, freelance
-              </li>
-              <li class="job__item">
-                2014-2016 <br />Insurance agent, Eximgarant of Belarus
-              </li>
-            </ul>
-          </section>
-          <section class="education" id="education">
-            <h2 class="section-title">Education</h2>
-            <ul class="education__list">
-              <li class="education__item">
-                2010-2014 <br />Belorusian State University -<br />
-                Manager-economist -<br />Bacalavr degree
-              </li>
-              <li class="education__item">
-                2013-2014 <br />Belorusian State University -<br />
-                Interpreter -<br />Retraining
-              </li>
-              <li class="education__item">
-                2022-now <br />RS School - Front-end Developer
-              </li>
-            </ul>
-          </section>
-          <section class="code" id="code">
-            <h2 class="section-title">Code Example</h2>
-            <pre>
-              <code class="language-javascript">
-                function multiply(a, b) {
-                  return a * b;
-                }
-              </code>
-            </pre>
-          </section>
+      </section>
+      <section class="education" id="education">
+        <h2 class="section-title">Education</h2>
+          <ul class="education__list">
+            <li class="education__item">
+              2010-2014 <br />Belorusian State University - Manager-economist - Bacalavr degree
+            </li>
+            <li class="education__item">
+              2013-2014 <br />Belorusian State University - Interpreter - Retraining
+            </li>
+            <li class="education__item">
+              2022-now <br />RS School - Front-end Developer
+            </li>
+          </ul>
+      </section>
+      <section class="code" id="code">
+        <h2 class="section-title">Code Example</h2>
+          <pre>
+            <code class="language-javascript">
+              function multiply(a, b) {
+                return a * b;
+              }
+            </code>
+          </pre>
+      </section>
+      <section class="language" id="language">
+        <h2 class="section-title">Language</h2>
+          <ul class="language__list">
+            <li>Belorussian/Russian - Native</li>
+            <li>English - B1 (Intermediate)</li>
+          </ul>
+      </section>
     </main>
   </div>
-  <footer class="footer">
+<div>
+  <footer class="container">
     <a class="footer__github" href="https://github.com/daria-radziuk" target="_blank">
-      My GitHub
+        <img
+        src="assets\logo.png"
+        width="86"
+        height="32"
+        alt="My GitHub"
+      />
     </a>
     <p class="footer__year">2022</p>
     <a class="footer__rsschool" href="https://rs.school/js/" target="_blank">
       <img
-        src="img/rs_school_js.svg"
+        src="assets\rs_school_ml.png"
         width="86"
         height="32"
         alt="RS School"
       />
     </a>
   </footer>
+</div>
 </body>
 </html>
