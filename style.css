@@ -52,7 +52,7 @@
     flex-wrap: wrap;
     font-family: 'GentiumPlus-Regular';
     max-width: 1440px;
-    margin: 40px auto;
+    margin: 10px auto;
     box-shadow: 6px 6px 20px rgb(0 0 0 / 10%);
 }
     .section {
@@ -77,9 +77,16 @@
     border: 1px solid #000000;
     border-radius: 20px 5px;
 }
-.section-title {
-    color: #004d6b;   
-}
 .main-title {
     color: #004d6b;  
+}
+.section-title {
+  color: #004d6b;  
+}
+.container2 {
+  font-family: 'GentiumPlus-Regular';
+  max-width: 1440px;
+  margin: 40px auto;
+  box-shadow: 6px 6px 20px rgb(0 0 0 / 10%);
+  padding: 0px 30px;
 }
