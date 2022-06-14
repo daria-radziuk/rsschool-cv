@@ -1,12 +1,8 @@
 @font-face {
-    font-family: GentiumPlus-Regular;
+    font-family: 'GentiumPlus-Regular';
      src: url("assets\fonts\GentiumPlus-Regular.ttf");
    }
-   @font-face {
-    font-family: GentiumPlus-BoldItalic;
-     src: url("assets\fonts\GentiumPlus-BoldItalic.ttf");
-   }
-   * {
+     * {
     box-sizing: border-box;
   }
   body {
@@ -14,7 +10,7 @@
     flex-direction: column;
     justify-content: space-between;
     background: linear-gradient(#c0edff, #ffffff);
-    font-family: GentiumPlus-Regular;
+    font-family: 'GentiumPlus-Regular';
   }
   .container {
     max-width: 1440px;
