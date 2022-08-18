@@ -9,8 +9,11 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background: linear-gradient(#c0edff, #ffffff);
     font-family: 'GentiumPlus-Regular';
+    background: linear-gradient(#c0edff, #ffffff),
+                url(./assets/back.png) no-repeat 75% 50%;
+    background-blend-mode: multiply;
+    padding-left: 10px;
   }
   .container {
     max-width: 1440px;
