@@ -13,7 +13,6 @@
     background: linear-gradient(#c0edff, #ffffff),
                 url(./assets/back.png) no-repeat 75% 50%;
     background-blend-mode: multiply;
-    padding-left: 10px;
   }
   .container {
     max-width: 1440px;
