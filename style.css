@@ -62,7 +62,7 @@ html{
   scroll-behavior: smooth;
   font-family: 'GentiumPlus-Regular';
   background: linear-gradient(#c0edff, #ffffff),
-              url(./assets/back.png) no-repeat 75% 50%;
+              url(./assets/back.png) no-repeat 70% 45%;
   background-blend-mode: multiply;
   display: flex;
   flex-direction: column;
